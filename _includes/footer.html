@@ -1,0 +1,11 @@
+<aside>
+	<h2>文章列表</h2>
+	<ul>
+	{% for post in site.posts %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+</aside>
+<footer>
+	<p>&copy;2021 联系邮箱：{{ site.data.web.mail }}</p>
+</footer>

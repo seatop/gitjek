@@ -1,0 +1,14 @@
+---
+layout: default
+title: 网站首页
+---
+<article>
+	<h2 class="article-title">{{ site.posts.first.title }}</h2>
+	<p class="article-time">{{ site.posts.first.date | date: "%Y/%m/%d , %a" }}</p>
+	<div class="article-content">
+		{{ site.posts.first.content }}
+	</div>
+	<div class="article-nav">
+		<p>前一篇： <a href="{{ site.posts.first.previous.url }}">{{ site.posts.first.previous.title }}</a></p>
+	</div>
+</article>

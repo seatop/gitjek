@@ -1,0 +1,23 @@
+* { padding: 0; margin: 0; }
+body {font-size: 1em; font-family: "Microsoft Yahei",simSun,Arial;background-color: #222333;}
+a {text-decoration: none;}
+header h1 a {color: #111666;}
+header {padding: .5em;border-top: .3em solid #222333;background-color: #fff;}
+article {padding: .5em;background-color: #fff;}
+.article-title {border-left: .6em solid #333666;font-size: 1.2em;padding-left: .3em;color: #333666;font-weight: normal;}
+.article-time {color: #999ccc;font-size: 0.9em;padding: .5em .9em;}
+article div {padding: .5em .9em;}
+article div li {margin-left: 1.2em;}
+article div h1,article div h2,article div h3,article div h4,article div h5,article div h6 {color: #444666;}
+aritcle div a {color: #444;}
+.language-plaintext {background-color: #555; color: #fff; margin: .5em 0;}
+.article-content {border-bottom: .1em solid #333666;}
+.article-nav {font-size: 1em; color: #333666;}
+.article-nav a {color: #333666;}
+.article-nav p { padding: .3em 0;}
+aside {padding: .5em; color: #fff;font-size: .9em;}
+aside a {color: #fff;}
+aside h2 {font-size: 1em;margin: .5em;}
+aside li {list-style-type: none;padding-left: .6em;border-left: .6em solid #fff;margin: .6em .6em;}
+footer {padding: .5em; color: #aaa; font-size: .8em;text-align: right;}
+footer p {margin: .8em;}
