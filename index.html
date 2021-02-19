@@ -9,8 +9,8 @@ title: 网站首页
 		{{ site.posts.first.content }}
 	</div>
 	<div class="article-nav">
-		{{ if site.posts.first.previous.title }}
+		{% if site.posts.first.previous.title %}
 		<p>前一篇： <a href="{{ site.posts.first.previous.url }}">{{ site.posts.first.previous.title }}</a></p>
-		{{ endif }}
+		{% endif %}
 	</div>
 </article>
