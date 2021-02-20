@@ -9,9 +9,11 @@ article {padding: .5em;background-color: #fff;}
 article div {padding: .5em .9em;}
 article div li {margin-left: 1.2em;}
 article div h1,article div h2,article div h3,article div h4,article div h5,article div h6 {color: #444666;}
-aritcle div a {color: #444;}
+article div a {color: #444;}
 .language-plaintext {background-color: #555; color: #fff; margin: .5em 0;}
 .article-content {border-bottom: .1em solid #333666;}
+.article-content p {margin-top: .5em;}
+.article-content img {max-width: 98%;}
 .article-nav {font-size: 1em; color: #333666;}
 .article-nav a {color: #333666;}
 .article-nav p { padding: .3em 0;}
@@ -21,3 +23,18 @@ aside h2 {font-size: 1em;margin: .5em;}
 aside li {list-style-type: none;padding-left: .6em;border-left: .6em solid #fff;margin: .6em .6em;}
 footer {padding: .5em; color: #aaa; font-size: .8em;text-align: right;}
 footer p {margin: .8em;}
+
+@media only screen and (min-width: 980px) {
+	body {text-align: center;background-color: #fff;}
+	header h1 p {width:960px;margin: 0 auto;text-align: left;}
+	.page-content {width:960px; margin:0 auto; text-align: left;padding-top: 10px;}
+	.page-content:after { content: " "; display: table; clear: both; }
+	article{width: 600px;float: left;}
+	aside {width:320px;float:right;background-color: #222333;margin-top: 50px;}
+	footer {width: 960px;text-align: right; margin: 0 auto;}
+	
+
+}
+@media only screen and (max-width: 980px) {
+    aside {display: none;}
+}
