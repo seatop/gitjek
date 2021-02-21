@@ -3,14 +3,14 @@ layout: default
 title: 网站首页
 ---
 <article>
-	<h2 class="article-title">{{ site.posts.last.title }}</h2>
-	<p class="article-time">{{ site.posts.last.date | date: "%Y/%m/%d , %a" }}</p>
+	<h2 class="article-title">{{ site.posts.first.title }}</h2>
+	<p class="article-time">{{ site.posts.first.date | date: "%Y/%m/%d , %a" }}</p>
 	<div class="article-content">
-		{{ site.posts.last.content }}
+		{{ site.posts.first.content }}
 	</div>
 	<div class="article-nav">
-		{% if site.posts.last.next.title %}
-		<p>前一篇： <a href="{{ site.posts.last.next.url }}">{{ site.posts.last.next.title }}</a></p>
+		{% if site.posts.first.previous.title %}
+		<p>前一篇： <a href="{{ site.posts.first.previous.url }}">{{ site.posts.first.previous.title }}</a></p>
 		{% endif %}
 	</div>
 </article>

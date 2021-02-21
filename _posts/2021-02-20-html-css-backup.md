@@ -35,3 +35,17 @@ display: none;
 ~~~
 @media only screen and (min-width: 980px) { }
 ~~~
+
+#### 自动换行
+
+~~~
+word-wrap: break-word;
+
+table-layout: fixed;
+~~~
+
+#### 自动滚动条
+
+~~~
+overflow: auto;
+~~~

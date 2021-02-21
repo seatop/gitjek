@@ -1,7 +1,7 @@
 * { padding: 0; margin: 0; }
 body {font-size: 1em; font-family: "Microsoft Yahei",simSun,Arial;background-color: #222333;}
 a {text-decoration: none;}
-header h1 a {color: #111666;}
+header h1 a {color: #111666; font-weight: bolder; font-size: .8em; letter-spacing: .1em;}
 header {padding: .5em;border-top: .3em solid #222333;background-color: #fff;}
 article {padding: .5em;background-color: #fff;}
 .article-title {border-left: .6em solid #333666;font-size: 1.2em;padding-left: .3em;color: #333666;font-weight: normal;}
@@ -10,7 +10,7 @@ article div {padding: .5em .9em;}
 article div li {margin-left: 1.2em;}
 article div h1,article div h2,article div h3,article div h4,article div h5,article div h6 {color: #444666;}
 article div a {color: #444;}
-.language-plaintext {background-color: #555; color: #fff; margin: .5em 0;}
+.language-plaintext {background-color: #555; color: #fff; margin: .5em 0;overflow: auto; }
 .article-content {border-bottom: .1em solid #333666;}
 .article-content p {margin-top: .5em;}
 .article-content img {max-width: 98%;}
@@ -29,9 +29,11 @@ footer p {margin: .8em;}
 	header h1 p {width:960px;margin: 0 auto;text-align: left;}
 	.page-content {width:960px; margin:0 auto; text-align: left;padding-top: 10px;}
 	.page-content:after { content: " "; display: table; clear: both; }
-	article{width: 600px;float: left;}
-	aside {width:320px;float:right;background-color: #222333;margin-top: 50px;}
-	footer {width: 960px;text-align: right; margin: 0 auto;}
+	article {width: 600px;float: left;}
+	aside {width:320px;float:right;color: #222333;}
+	aside a {color: #222333;}
+	aside li {border-left: .6em solid #222333;}
+	footer {width: 960px;text-align: left; margin: 0 auto;}
 	
 
 }
