@@ -1,7 +1,6 @@
 * { padding: 0; margin: 0; }
 body {font-size: 1em; font-family: "Microsoft Yahei",simSun,Arial;background-color: #222333;}
 a {text-decoration: none;}
-header h1 {padding-left: 0.6em;}
 header img {width: 1.4em; vertical-align: middle; }
 header h1 a {color: #111666; font-weight: bolder; font-size: .8em; letter-spacing: .1em;}
 header {padding: 1.8em;border-top: .3em solid #222333;background-color: #fff;}
@@ -41,5 +40,5 @@ footer p {margin: .8em;}
 }
 @media only screen and (max-width: 980px) {
     aside {display: none;}
-    header h1 {padding-left: 0em; text-align: center;}
+    header h1 { text-align: center;}
 }
